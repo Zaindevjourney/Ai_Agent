@@ -1,81 +1,117 @@
-# 📄🎥 AI Video Summarizer & Advanced PDF Manager
 
-## Overview
+# 📘 GitHub README.md Description
 
-This project is a Python-based utility suite that combines **AI-powered video content analysis** with **advanced PDF management tools**. The system can extract information from YouTube and Vimeo video URLs, generate structured summaries, and perform essential PDF operations including merging, splitting, and rotating PDF files through both Command Line Interface (CLI) and Graphical User Interface (GUI).
+```md
+# 🚀 Advanced PDF Manager Pro
 
-The project is designed to improve productivity by automating content extraction, summarization, and document management tasks.
+A powerful **Python-based PDF management tool** that supports both **Graphical User Interface (GUI)** and **Command Line Interface (CLI)** for flexible usage.
+
+This project allows users to efficiently perform common PDF operations like merging, splitting, and rotating files with a clean and modern interface.
 
 ---
 
 ## ✨ Features
 
-### 🎥 Video Analysis & Summarization
-
-* Detects video platforms (YouTube & Vimeo)
-* Extracts video IDs automatically
-* Retrieves video metadata
-
-  * Title
-  * Channel Name
-  * Duration
-  * Description
-  * Thumbnail
-* Generates structured AI summaries
-* Provides:
-
-  * Main Topic
-  * Key Points
-  * Detailed Summary
-  * Tags
-  * Sentiment Analysis
-  * Difficulty Level
-
-### 📄 PDF Management
-
-* Merge multiple PDF files into a single document
-* Split PDFs into individual pages
-* Rotate PDF pages (90°, 180°, 270°)
-* Command Line Interface support
-* Graphical User Interface support
-* Error handling and file validation
+- 📄 Merge multiple PDF files into a single document  
+- ✂️ Split PDF files into individual pages  
+- 🔄 Rotate PDF pages (90°, 180°, 270°)  
+- 🖥️ Dual Mode Support:
+  - GUI Mode (Tkinter + ttkbootstrap)
+  - CLI Mode (argparse-based automation)
+- ⚡ Lightweight and fast processing using `pypdf`
+- 🧩 Modular architecture (separated logic & UI)
+- 🧪 Includes test scripts for validation
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* Python
-* PyPDF
-* ReportLab
-* Requests
-* Anthropic API
-* Python Dotenv
-* Tkinter / ttkbootstrap
-* Regular Expressions (Regex)
+- Python 3.x  
+- Tkinter (GUI)  
+- ttkbootstrap (Modern UI styling)  
+- pypdf (PDF manipulation)  
+- argparse (CLI support)  
+- reportlab (test PDF generation)
 
 ---
 
-## 🎯 Project Objectives
+## 📂 Project Structure
 
-* Automate video content understanding and summarization.
-* Simplify PDF document management tasks.
-* Provide both beginner-friendly GUI and powerful CLI functionality.
-* Demonstrate practical applications of AI, file processing, and automation using Python.
+```
 
----
+main.py           # CLI entry point
+gui.py            # GUI application
+merger.py         # PDF processing logic
+test.py           # Unit testing script
 
-## 🚀 Key Skills Demonstrated
-
-* Python Programming
-* Object-Oriented Programming (OOP)
-* API Integration
-* File Handling
-* PDF Processing
-* AI-Powered Content Analysis
-* CLI Development
-* GUI Development
-* Error Handling & Validation
+````
 
 ---
 
-**AI-powered Video Summarizer and Advanced PDF Management Tool built with Python, featuring video metadata extraction, content summarization, PDF merging, splitting, rotating, and both CLI & GUI support.** 🚀
+## 🚀 How to Run
+
+### ▶️ GUI Mode
+```bash
+python main.py
+````
+
+### 💻 CLI Mode
+
+Merge PDFs:
+
+```bash
+python main.py file1.pdf file2.pdf -o output.pdf
+```
+
+Split PDF:
+
+```bash
+python main.py --split file.pdf -o output_folder
+```
+
+Rotate PDF:
+
+```bash
+python main.py --rotate 90 file.pdf -o rotated.pdf
+```
+
+---
+
+## 🧠 What I Learned
+
+* Building desktop applications in Python
+* Working with PDF manipulation libraries
+* Designing CLI + GUI hybrid systems
+* Writing modular and reusable code
+* Handling file operations efficiently
+
+---
+
+## 📌 Future Improvements
+
+* Add drag & drop support
+* Add PDF compression feature
+* Add OCR-based text extraction
+* Cloud integration for file storage
+
+---
+
+## 👨‍💻 Author
+
+**Zain ul Abideen** – Computer Science Student & Python Developer
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for learning purposes.
+
+```
+
+---
+
+If you want, I can also:
+✅ :contentReference[oaicite:0]{index=0}  
+✅ Or :contentReference[oaicite:1]{index=1}  
+✅ Or :contentReference[oaicite:2]{index=2}
+```
