@@ -1,11 +1,6 @@
+ Advanced PDF Manager Pro
 
-# 📘 GitHub README.md Description
-
-```md
-# 🚀 Advanced PDF Manager Pro
-
-A powerful **Python-based PDF management tool** that supports both **Graphical User Interface (GUI)** and **Command Line Interface (CLI)** for flexible usage.
-
+A powerful Python-based PDF management tool that supports both Graphical User Interface (GUI) and Command Line Interface (CLI) for flexible usage.
 This project allows users to efficiently perform common PDF operations like merging, splitting, and rotating files with a clean and modern interface.
 
 ---
